@@ -1,1 +1,53 @@
-Engineer by logic and driven by curiosity, I build systems that are not just functional but meaningful—where clean code meets real-world impact. I believe in the discipline of doing things the right way, the patience to keep improving, and the ambition to create technology that stands the test of time. Always learning, always building, and always pushing beyond the obvious—one commit at a time.
+````markdown
+<h1 align="center">⚔️ Swayam's Code Realm ⚔️</h1>
+<p align="center"><i>Where code sometimes behaves... unexpectedly.</i></p>
+
+```java
+// A normal day...
+public class Main {
+    public static void main(String[] args) {
+        System.out.println("Building something cool...");
+    }
+}
+
+// But then... a tiny mistake
+if(code == "perfect"); {
+    spawn("dragon");
+}
+````
+
+```text
+⚠️ ERROR: Unknown entity detected...
+🔥 Initializing Dragon.exe
+🐉 Dragon has entered the system
+
+You:   "Wait... that's not what I coded 😐"
+Dragon: *breathes fire*
+System: CRITICAL DAMAGE 💥
+```
+
+---
+
+### 🛠️ Current Status
+
+* 🧠 Debugging reality
+* 🔥 Fighting unexpected bugs (and dragons)
+* 🚀 Still building cool stuff
+
+---
+
+### 📊 Developer Stats
+
+```
+Bugs fixed: ██████████░░░░ 70%
+Dragons defeated: ███░░░░░░░ 30%
+Coffee consumed: ███████████████ 100%
+```
+
+---
+
+> Sometimes you write code...
+> Sometimes code writes your destiny.
+
+<p align="center">⭐ If you like this chaos, explore my repositories!</p>
+```
