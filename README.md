@@ -1,1 +1,1 @@
-
+Engineer by logic and driven by curiosity, I build systems that are not just functional but meaningful—where clean code meets real-world impact. I believe in the discipline of doing things the right way, the patience to keep improving, and the ambition to create technology that stands the test of time. Always learning, always building, and always pushing beyond the obvious—one commit at a time.
