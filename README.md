@@ -1,9 +1,15 @@
-<h1 align="center">⚔️ SWAYAM'S CODE REALM ⚔️</h1>
-<p align="center"><i>Where every commit is a battle, and every bug is a dragon.</i></p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:1F8F49,50:FF8C1A,100:FF3B1A&height=200&section=header&text=SWAYAM'S%20CODE%20REALM&fontSize=42&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=Where%20every%20commit%20is%20a%20battle%2C%20and%20every%20bug%20is%20a%20dragon&descAlignY=58&descSize=16" width="100%"/>
+</p>
 
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=22&pause=1000&color=F7931E&center=true&vCenter=true&width=600&lines=Compiling+code...;Summoning+a+dragon...;Slaying+the+dragon...;Shipping+the+feature+anyway.+🐉" alt="Typing SVG" />
 </p>
+
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/213911110-aedbef38-a29f-4b6b-a65c-11608b4f75a5.gif" width="300" alt="Fire animation" />
+</p>
+<p align="center"><sub>🐉 he's angry about the merge conflict 🔥</sub></p>
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=SwayamX&label=Realm%20Visitors&color=ff6b00&style=flat" alt="profile views" />
@@ -110,7 +116,6 @@ Times "it works on my machine" was said  47
 | **The "Works Locally" Phantom** | Docker | Banished to another dimension |
 
 ---
-
 
 <p align="center">⭐ If you enjoyed this chaos, my repositories have even more dragons waiting.</p>
 
