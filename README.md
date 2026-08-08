@@ -111,12 +111,6 @@ Times "it works on my machine" was said  47
 
 ---
 
-### 📬 SUMMON ME
-
-<p align="center">
-  <a href="https://linkedin.com/in/YOUR-LINK"><img src="https://www.linkedin.com/in/swayam-jyoti-routray-19a41a1b8/" /></a>
- 
-</p>
 
 <p align="center">⭐ If you enjoyed this chaos, my repositories have even more dragons waiting.</p>
 
