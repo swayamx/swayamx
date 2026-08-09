@@ -1,20 +1,22 @@
-# 🐉 Swayam's Developer Realm
+<div align="center">
 
-<p align="center">
-  <img src="./assets/dragon.gif" width="220" alt="Animated Dragon">
-</p>
+<!-- Animated capsule header -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8B0000,50:FF4500,100:FFD700&height=280&section=header&text=Swayam's%20Developer%20Realm&fontSize=48&fontColor=FFFFFF&animation=fadeIn&fontAlignY=38&desc=AI%20Engineer%20•%20Software%20Developer%20•%20Dragon%20Slayer&descAlignY=58&descSize=20" width="100%"/>
 
-<h1 align="center">
-  ⚔️ WELCOME TO THE DEVELOPER REALM ⚔️
-</h1>
+<img src="https://raw.githubusercontent.com/DenverCoder1/DenverCoder1/main/dragon.gif" width="220" alt="Animated Dragon" onerror="this.style.display='none'">
 
-<p align="center">
-  <b>AI Engineer • Software Developer • Researcher • Builder</b>
-</p>
+<!-- Typing animation -->
+<a href="#">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=26&duration=3000&pause=800&color=FF4500&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Turning+ideas+into+systems...;Turning+bugs+into+features...;Turning+coffee+into+code..." alt="Typing SVG" />
+</a>
 
-<p align="center">
-  <i>Turning ideas into systems, bugs into features, and coffee into code.</i>
-</p>
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=SwayamX&color=ff4500&style=for-the-badge&label=REALM+VISITORS)
+![GitHub followers](https://img.shields.io/github/followers/SwayamX?style=for-the-badge&color=8B0000&labelColor=000000)
+![Streak](https://img.shields.io/badge/DRAGON%20STREAK-ACTIVE-FFD700?style=for-the-badge&labelColor=000000)
+
+</div>
 
 ---
 
@@ -41,91 +43,87 @@ public class Developer {
         System.out.println("🔥 SYSTEM RESTORED");
     }
 
-    static void debug() {
-        System.out.println("🐉 Dragon found...");
-    }
-
-    static void test() {
-        System.out.println("⚔️ Testing the attack...");
-    }
-
-    static void refactor() {
-        System.out.println("🧠 Critical refactoring!");
-    }
+    static void debug()    { System.out.println("🐉 Dragon found..."); }
+    static void test()     { System.out.println("⚔️ Testing the attack..."); }
+    static void refactor() { System.out.println("🧠 Critical refactoring!"); }
 }
 ```
 
-```text
-                    🐉
-                   /██\
-              ____/████\____
-             /              \
-            /   FIREWALL     \
-           /__________________\
-                  ||
-                  ||
-            ⚔️  BATTLE STARTED
-
-        Developer        Bug Dragon
-            🧑‍💻     VS       🐉
-
-        HP: ████████████████████ 100%
-        XP: ███████████████░░░░░  75%
-
-        STATUS: DEBUGGING...
-```
+<div align="center">
+<img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="260" alt="battle animation">
+</div>
 
 > **Sometimes you write the code.**
->
 > **Sometimes the code summons the dragon.**
->
 > **Either way — you debug until you win.** ⚔️
 
 ---
 
-# 🧙‍♂️ PLAYER PROFILE
+## 🧙‍♂️ PLAYER PROFILE
+
+<table align="center">
+<tr>
+<td width="55%" valign="top">
 
 ```text
-╔════════════════════════════════════════════════════╗
-║                    PLAYER CARD                     ║
-╠════════════════════════════════════════════════════╣
-║                                                    ║
-║  Name        : Swayam                              ║
-║  Class       : AI Engineer / Software Developer   ║
-║  Speciality  : AI • ML • Full Stack • Research    ║
-║  Weapon      : Python + C++ + Java                ║
-║  Secondary   : JavaScript + SQL                   ║
-║                                                    ║
-║  Current XP  : ███████████████░░░░░               ║
-║  Next Level  : Senior Dragon Slayer               ║
-║                                                    ║
-╚════════════════════════════════════════════════════╝
+╔══════════════════════════════════════════╗
+║               PLAYER CARD                 ║
+╠══════════════════════════════════════════╣
+║  Name        : Swayam                     ║
+║  Class       : AI Engineer / Full Stack   ║
+║  Speciality  : AI • ML • Research • Web   ║
+║  Weapon      : Python + C++ + Java        ║
+║  Secondary   : JavaScript + SQL           ║
+║  Next Level  : Senior Dragon Slayer       ║
+╚══════════════════════════════════════════╝
 ```
 
+**🎯 Current Main Quest**
+Build intelligent systems that solve real-world problems.
+
+**⚔️ Active Side Quests**
+- 🤖 Building AI-powered applications
+- 🧠 Researching Machine Learning & Generative AI
+- 🌐 Developing full-stack applications
+- 🎮 Experimenting with game development
+- ☁️ Learning cloud, DevOps and system design
+- 🛡️ Exploring cybersecurity
+
+</td>
+<td width="45%" valign="center" align="center">
+
+<img src="https://media.giphy.com/media/26tPplGWjN0xLybiU/giphy.gif" width="300" alt="dragon guardian"/>
+
+</td>
+</tr>
+</table>
+
 ---
 
-# ⚔️ CURRENT QUEST LOG
+## 📊 LIVE DEVELOPER STATUS
 
-* 🤖 Building AI-powered applications
-* 🧠 Researching Machine Learning & Generative AI
-* 📚 Building intelligent learning systems
-* 🌐 Developing full-stack applications
-* 🎮 Experimenting with game development
-* ☁️ Learning cloud, DevOps and system design
-* 🛡️ Exploring cybersecurity
-* 🔬 Turning research ideas into working prototypes
+<div align="center">
 
-### 🎯 Current Main Quest
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SwayamX&show_icons=true&theme=dracula&hide_border=true&bg_color=0D1117&title_color=FF4500&icon_color=FFD700&text_color=FFFFFF"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SwayamX&layout=compact&theme=dracula&hide_border=true&bg_color=0D1117&title_color=FF4500&text_color=FFFFFF"/>
 
-**Build intelligent systems that solve real-world problems.**
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=SwayamX&theme=dracula&hide_border=true&background=0D1117&ring=FF4500&fire=FFD700&currStreakLabel=FF4500" alt="GitHub Streak"/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=SwayamX&theme=dracula&hide_border=true&bg_color=0D1117&color=FF4500&line=FFD700&point=FFFFFF" width="95%"/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=SwayamX&theme=dracula&no-frame=true&column=7&margin-w=8&margin-h=8" width="95%"/>
+
+</div>
+
+> Replace `SwayamX` with your real GitHub username in every URL above so these render **live, real data** instead of placeholders.
 
 ---
 
-# 🐲 THE DRAGON
+## 🐲 THE DRAGON
 
-<p align="center">
-  <img src="./assets/dragon.gif" width="300" alt="Animated coding dragon">
-</p>
+<div align="center">
+<img src="https://raw.githubusercontent.com/DenverCoder1/DenverCoder1/main/dragon.gif" width="320" alt="Code Dragon">
+</div>
 
 ```text
               🔥 🔥 🔥
@@ -133,180 +131,113 @@ public class Developer {
              /████\
         ____/██████\____
        /                \
-      /   CODE DRAGON    \
-      \                  /
-       \________________/
+      /   CODE DRAGON     \
+      \                   /
+       \_________________/
 
-          HP: ████████████████████
+          HP: ████████████████████ 100%
 
           ⚔️ ATTACK OPTIONS
+          [ DEBUG ] [ REFACTOR ] [ TEST ] [ DEPLOY ]
 
-          [ DEBUG ]
-          [ REFACTOR ]
-          [ TEST ]
-          [ DEPLOY ]
-
-          Dragon Status:
-          🟢 ACTIVE
+          Dragon Status: 🟢 ACTIVE
 ```
 
-The dragon isn't a fake statistic.
-
-It's the **guardian of every bug hiding inside production code.**
+The dragon isn't a fake statistic — it's the **guardian of every bug hiding in production code.**
 
 ---
 
-# 🛠️ ARSENAL
+## 🛠️ ARSENAL
 
-## 💻 Programming Languages
+<div align="center">
 
-<p align="center">
+**💻 Languages**
+<br/>
+<img src="https://skillicons.dev/icons?i=c,cpp,java,py,js,sql&theme=dark" />
 
-`C` • `C++` • `Java` • `Python` • `JavaScript` • `SQL`
+**🤖 AI / Machine Learning**
+<br/>
+<img src="https://skillicons.dev/icons?i=py,tensorflow,pytorch&theme=dark" />
+<br/>
+`NumPy` `Pandas` `Scikit-learn` `Generative AI` `LLMs` `RAG` `LangChain` `LlamaIndex`
 
-</p>
+**🌐 Web Development**
+<br/>
+<img src="https://skillicons.dev/icons?i=html,css,js,react,nodejs,express&theme=dark" />
 
-## 🤖 AI / Machine Learning
+**🗄️ Databases**
+<br/>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,oracle&theme=dark" />
 
-<p align="center">
+**☁️ Cloud & DevOps**
+<br/>
+<img src="https://skillicons.dev/icons?i=aws,docker,terraform,jenkins,ansible,git,github,linux&theme=dark" />
 
-`NumPy` • `Pandas` • `Scikit-learn` • `TensorFlow` • `PyTorch`
-
-`Generative AI` • `LLMs` • `RAG` • `LangChain` • `LlamaIndex`
-
-</p>
-
-## 🌐 Web Development
-
-<p align="center">
-
-`HTML` • `CSS` • `JavaScript` • `React`
-
-`Node.js` • `Express.js`
-
-</p>
-
-## 🗄️ Databases
-
-<p align="center">
-
-`MongoDB` • `MySQL` • `Oracle SQL`
-
-</p>
-
-## ☁️ Cloud & DevOps
-
-<p align="center">
-
-`AWS` • `Docker` • `Terraform`
-
-`Jenkins` • `Ansible` • `Git` • `GitHub` • `Linux`
-
-</p>
+</div>
 
 ---
 
-# 📊 LIVE DEVELOPER STATUS
+## 🏰 BOSS FIGHT HISTORY
 
-> These sections are designed to use **real GitHub activity**, not manually invented numbers.
+<div align="center">
 
-<p align="center">
-  <img src="./assets/github-stats.svg" alt="GitHub Statistics">
-</p>
+| 👹 Boss | ⚔️ Weapon | 🏆 Result |
+|---|---|---|
+| 🐍 Merge Conflict Hydra | `git rebase` | ✅ Defeated |
+| 🔁 Infinite Loop Wyrm | `break;` | ✅ One-shot |
+| 👻 Works-on-My-Machine Phantom | Docker | ✅ Banished |
+| 🐙 Dependency Kraken | Package management | ⚠️ Survived |
+| 🔥 3AM Deployment Demon | Coffee + debugging | ⚠️ Barely survived |
+| 🧠 NullPointerException Beast | Defensive programming | ✅ Defeated |
 
-<p align="center">
-  <img src="./assets/github-streak.svg" alt="GitHub Contribution Streak">
-</p>
-
-<p align="center">
-  <img src="./assets/github-languages.svg" alt="Most Used Languages">
-</p>
-
----
-
-# 🏰 BOSS FIGHT HISTORY
-
-| 👹 Boss                        | ⚔️ Weapon             | 🏆 Result       |
-| ------------------------------ | --------------------- | --------------- |
-| 🐍 Merge Conflict Hydra        | `git rebase`          | Defeated        |
-| 🔁 Infinite Loop Wyrm          | `break;`              | One-shot        |
-| 👻 Works-on-My-Machine Phantom | Docker                | Banished        |
-| 🐙 Dependency Kraken           | Package management    | Survived        |
-| 🔥 3AM Deployment Demon        | Coffee + debugging    | Barely survived |
-| 🧠 NullPointerException Beast  | Defensive programming | Defeated        |
+</div>
 
 ---
 
-# 🧪 RESEARCH LAB
+## 🧪 RESEARCH LAB — AI Textbook & Lab Synthesizer
 
-## 📚 AI Textbook & Lab Synthesizer
+An AI-powered system that transforms technical textbooks and learning resources into structured, intelligent study material.
 
-An AI-powered system designed to transform technical textbooks and learning resources into structured, intelligent study material.
+<div align="center">
 
-### ⚡ Core Architecture
+```mermaid
+flowchart TD
+    A[📚 Textbooks] --> B[🔎 OCR / Text Extraction]
+    B --> C[🧹 Preprocessing]
+    C --> D[🧠 Embedding Engine]
+    D --> E[⚡ FAISS Vector Store]
+    E --> F[🔍 Semantic Search]
+    F --> G[🧠 RAG Pipeline]
+    G --> H[🤖 Gemini AI]
+    H --> I[AI Note Synthesis]
+    I --> J[📖 Notes]
+    I --> K[🧪 Labs]
+    I --> L[📑 Reports]
+    J --> M[📄 PDF Output]
+    K --> M
+    L --> M
 
-```text
-             📚 TEXTBOOKS
-                  │
-                  ▼
-             🔎 OCR / TEXT
-                  │
-                  ▼
-          🧹 PREPROCESSING
-                  │
-                  ▼
-         🧠 EMBEDDING ENGINE
-                  │
-                  ▼
-             ⚡ FAISS
-                  │
-                  ▼
-          🔍 SEMANTIC SEARCH
-                  │
-                  ▼
-              🧠 RAG
-                  │
-                  ▼
-             🤖 GEMINI AI
-                  │
-                  ▼
-        ┌────────────────────┐
-        │  AI NOTE SYNTHESIS │
-        └────────────────────┘
-                  │
-          ┌───────┼────────┐
-          ▼       ▼        ▼
-       📖 Notes  🧪 Labs  📑 Reports
-                  │
-                  ▼
-             📄 PDF OUTPUT
+    style A fill:#8B0000,color:#fff
+    style H fill:#FFD700,color:#000
+    style M fill:#FF4500,color:#fff
 ```
 
-### Features
+</div>
 
-* 📖 Multi-book semantic retrieval
-* 🔎 Semantic chapter search
-* 🧠 Vector embeddings
-* ⚡ FAISS similarity search
-* 🤖 Retrieval-Augmented Generation
-* 📝 AI note synthesis
-* 🧪 Laboratory content generation
-* 📑 Academic report generation
-* 📄 Professional PDF generation
-* 🔀 Intelligent query routing
-* 🎯 Automatic output-format detection
+**Features**
+📖 Multi-book semantic retrieval · 🔎 Semantic chapter search · 🧠 Vector embeddings · ⚡ FAISS similarity search · 🤖 Retrieval-Augmented Generation · 📝 AI note synthesis · 🧪 Lab content generation · 📑 Academic report generation · 📄 Professional PDF output · 🔀 Intelligent query routing · 🎯 Automatic format detection
 
 ---
 
-# 🚀 PROJECT REALM
+## 🚀 PROJECT REALM
+
+<table align="center" width="100%">
+<tr>
+<td width="33%" valign="top" align="center">
 
 ### 🤖 Artificial Intelligence
-
-Building systems around:
-
 ```text
 LLMs
- │
  ├── RAG
  ├── Semantic Search
  ├── AI Agents
@@ -315,13 +246,12 @@ LLMs
  └── Generative AI
 ```
 
+</td>
+<td width="33%" valign="top" align="center">
+
 ### 🎮 Game Development
-
-Experimenting with:
-
 ```text
 C++
- │
  └── SFML
       ├── Game Mechanics
       ├── Collision Detection
@@ -329,102 +259,75 @@ C++
       └── Enemy Systems
 ```
 
-### 📊 Data & Analytics
+</td>
+<td width="33%" valign="top" align="center">
 
+### 📊 Data & Analytics
 ```text
 Dataset
-   ↓
-Cleaning
-   ↓
-Exploration
-   ↓
-Visualization
-   ↓
-Machine Learning
-   ↓
-Insights
+   ↓ Cleaning
+   ↓ Exploration
+   ↓ Visualization
+   ↓ Machine Learning
+   ↓ Insights
 ```
+
+</td>
+</tr>
+</table>
 
 ---
 
-# 🧠 DEVELOPER MINDSET
+## 🧠 DEVELOPER MINDSET
 
-```text
-        ┌───────────────┐
-        │     LEARN     │
-        └───────┬───────┘
-                ↓
-        ┌───────────────┐
-        │     BUILD     │
-        └───────┬───────┘
-                ↓
-        ┌───────────────┐
-        │     BREAK     │
-        └───────┬───────┘
-                ↓
-        ┌───────────────┐
-        │     DEBUG     │
-        └───────┬───────┘
-                ↓
-        ┌───────────────┐
-        │   REFACTOR    │
-        └───────┬───────┘
-                ↓
-        ┌───────────────┐
-        │     SHIP      │
-        └───────┬───────┘
-                │
-                └──────────────→ 🔁
+<div align="center">
+
+```mermaid
+graph LR
+    A[LEARN] --> B[BUILD] --> C[BREAK] --> D[DEBUG] --> E[REFACTOR] --> F[SHIP] --> A
+    style A fill:#8B0000,color:#fff
+    style D fill:#FF4500,color:#fff
+    style F fill:#FFD700,color:#000
 ```
+
+</div>
 
 ---
 
-# 🏆 ACHIEVEMENTS
+## 🏆 ACHIEVEMENTS
 
-```text
-╔══════════════════════════════════════════╗
-║              ACHIEVEMENTS                ║
-╠══════════════════════════════════════════╣
-║                                          ║
-║  🥋 National-Level Taekwondo             ║
-║  💻 Computer Science Engineering         ║
-║  🤖 AI / ML Projects                     ║
-║  🔬 AI Research                          ║
-║  🎮 Game Development                     ║
-║  📊 Data Analytics                       ║
-║  ☁️ Cloud & DevOps                       ║
-║  🧠 Generative AI                        ║
-║                                          ║
-╚══════════════════════════════════════════╝
-```
+<div align="center">
+
+| Badge | Achievement |
+|---|---|
+| 🥋 | National-Level Taekwondo |
+| 💻 | Computer Science Engineering |
+| 🤖 | AI / ML Projects |
+| 🔬 | AI Research |
+| 🎮 | Game Development |
+| 📊 | Data Analytics |
+| ☁️ | Cloud & DevOps |
+| 🧠 | Generative AI |
+
+</div>
 
 ---
 
-# ⚡ SYSTEM TERMINAL
+## ⚡ SYSTEM TERMINAL
 
 ```text
 > booting developer.exe...
-
 [████████████████████] 100%
 
-✓ Loading Python
-✓ Loading C++
-✓ Loading Java
-✓ Loading AI Engine
-✓ Loading Git
-✓ Loading Docker
-✓ Loading Research Mode
-
-✓ Dragon detected
+✓ Loading Python        ✓ Loading Docker
+✓ Loading C++            ✓ Loading Research Mode
+✓ Loading Java           ✓ Dragon detected
 
 > Dragon.exe started
 
 🐉: "Who dares enter production?"
-
 🧑‍💻: "Someone who forgot to commit."
-
 🐉: "..."
-
 🐉: "You have chosen death."
 
 ⚔️ BATTLE STARTED
@@ -432,61 +335,64 @@ Insights
 
 ---
 
-# 🐉 FINAL BOSS
+## 🐍 CONTRIBUTION SNAKE
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/SwayamX/SwayamX/output/github-contribution-grid-snake.svg" width="100%" alt="snake animation" />
+</div>
+
+> This animated snake eats your real contribution graph. Set it up once via the [`platane/snk`](https://github.com/Platane/snk) GitHub Action on your repo — it updates automatically every day.
+
+---
+
+## 🐉 FINAL BOSS
 
 ```python
 while True:
-
     learn()
-
     build()
-
     fail()
-
     debug()
-
     improve()
 
     if problem_solved:
         ship()
-
     else:
         summon_dragon()
 ```
 
-<p align="center">
+<div align="center">
 
 ### ⚔️ BUILD. BREAK. DEBUG. REPEAT. ⚔️
-
 🐉 **The dragon is waiting.**
 
-</p>
+</div>
 
 ---
 
-# 🤝 OPEN TO QUESTS
+## 🤝 OPEN TO QUESTS
 
-Interested in opportunities involving:
+<div align="center">
 
 **Software Engineering • AI/ML • Generative AI • Full-Stack Development • Cloud/DevOps • AI Research**
 
-<p align="center">
+🏰 **THE DRAWBRIDGE IS DOWN.**
+🐉 Dragon: **Friendly** &nbsp; ⚔️ Bugs: **Not Welcome** &nbsp; ☕ Coffee: **Required** &nbsp; 🚀 Deployment: **Pending**
 
-### 🏰 THE DRAWBRIDGE IS DOWN.
+<br/>
 
-🐉 Dragon: **Friendly**
-⚔️ Bugs: **Not Welcome**
-☕ Coffee: **Required**
-🚀 Deployment: **Pending**
+<img src="https://img.shields.io/badge/LinkedIn-Connect-8B0000?style=for-the-badge&logo=linkedin&logoColor=FFD700&labelColor=000000" />
+<img src="https://img.shields.io/badge/Email-Reach%20Out-FF4500?style=for-the-badge&logo=gmail&logoColor=FFD700&labelColor=000000" />
+<img src="https://img.shields.io/badge/Portfolio-Explore-FFD700?style=for-the-badge&logo=vercel&logoColor=000000&labelColor=000000" />
 
-</p>
+<br/><br/>
 
----
+<i>"Every great system started as an idea."</i>
 
-<p align="center">
-  <i>“Every great system started as an idea.”</i>
-</p>
+<br/>
 
-<p align="center">
-  🐉⚔️ <b>WELCOME TO THE REALM.</b> ⚔️🐉
-</p>
+🐉⚔️ **WELCOME TO THE REALM.** ⚔️🐉
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:FFD700,50:FF4500,100:8B0000&height=150&section=footer" width="100%"/>
+
+</div>
