@@ -1,260 +1,492 @@
-# 🐉 THE LEGEND BEGINS
+# 🐉 Swayam's Developer Realm
+
+<p align="center">
+  <img src="./assets/dragon.gif" width="220" alt="Animated Dragon">
+</p>
+
+<h1 align="center">
+  ⚔️ WELCOME TO THE DEVELOPER REALM ⚔️
+</h1>
+
+<p align="center">
+  <b>AI Engineer • Software Developer • Researcher • Builder</b>
+</p>
+
+<p align="center">
+  <i>Turning ideas into systems, bugs into features, and coffee into code.</i>
+</p>
+
+---
+
+## 🐉 THE LEGEND BEGINS
 
 ```java
-// A normal day in the Realm...
-public class Main {
+public class Developer {
+
     public static void main(String[] args) {
-        System.out.println("Building something cool...");
+
+        boolean bugDetected = true;
+
+        while (bugDetected) {
+
+            System.out.println("Searching for the bug...");
+
+            debug();
+            test();
+            refactor();
+
+            bugDetected = false;
+        }
+
+        System.out.println("🔥 SYSTEM RESTORED");
+    }
+
+    static void debug() {
+        System.out.println("🐉 Dragon found...");
+    }
+
+    static void test() {
+        System.out.println("⚔️ Testing the attack...");
+    }
+
+    static void refactor() {
+        System.out.println("🧠 Critical refactoring!");
     }
 }
-
-// But then... a single misplaced semicolon
-if (code == "perfect"); {
-    summon("dragon");
-}
 ```
 
 ```text
-⚠️  ERROR: Unknown entity detected in production...
-🔥  Initializing Dragon.exe
-🐉  A WILD BUG-DRAGON HAS APPEARED
+                    🐉
+                   /██\
+              ____/████\____
+             /              \
+            /   FIREWALL     \
+           /__________________\
+                  ||
+                  ||
+            ⚔️  BATTLE STARTED
 
-You:     "Wait... that's not what I coded 😐"
-Dragon:  *breathes stack traces*
-System:  CRITICAL DAMAGE 💥 -40 HP
+        Developer        Bug Dragon
+            🧑‍💻     VS       🐉
 
-You:     git blame
-Dragon:  "It was YOU all along."
-You:     "...fair."
+        HP: ████████████████████ 100%
+        XP: ███████████████░░░░░  75%
 
-⚔️  BATTLE INITIATED
+        STATUS: DEBUGGING...
 ```
 
-```diff
-- console.log("HP: 100");
-- Dragon uses NullPointerException! It's super effective!
-- console.log("HP: 35");
-
-+ You cast console.log() seventeen times in a row.
-+ You refactor mid-battle. Critical hit!
-+ Dragon.hp -= 9999;
-+ 🏆 VICTORY — Dragon defeated. XP +500. Ego +1000.
-```
-
-> Sometimes you write code.
-> Sometimes the code writes your destiny.
-> Either way, someone's getting refactored today.
+> **Sometimes you write the code.**
+>
+> **Sometimes the code summons the dragon.**
+>
+> **Either way — you debug until you win.** ⚔️
 
 ---
 
-# 🛠️ CURRENT QUEST LOG
-
-* 🧠 Debugging reality, one `console.log()` at a time
-* 🔥 Fighting unexpected bugs and the occasional dragon
-* 🚀 Building full-stack applications, games, and AI-powered tools
-* 🤖 Exploring Artificial Intelligence, Machine Learning & Generative AI
-* 📚 Turning research ideas into working systems
-* 🗡️ Currently grinding XP toward: **Senior Dragon Slayer**
-* 👀 Open to opportunities — **recruiters, the drawbridge is down.**
-
----
-
-# ⚔️ ARSENAL
-
-### 💻 Languages
-
-`C` · `C++` · `Java` · `Python` · `JavaScript` · `SQL`
-
-### 🌐 Web & Application Development
-
-`HTML` · `CSS` · `JavaScript` · `React` · `Node.js` · `Express.js`
-
-### 🤖 AI / Machine Learning
-
-`Python` · `NumPy` · `Pandas` · `Scikit-learn` · `TensorFlow` · `PyTorch`
-
-`Generative AI` · `LLMs` · `RAG` · `LangChain` · `LlamaIndex` · `Hugging Face`
-
-### 🗄️ Databases
-
-`MongoDB` · `MySQL` · `Oracle SQL`
-
-### ☁️ Cloud / DevOps
-
-`AWS` · `Docker` · `Terraform` · `Jenkins` · `Ansible`
-
-### 📊 Data & Visualization
-
-`Matplotlib` · `Seaborn` · `Power BI` · `Tableau`
-
-### 🔧 Tools
-
-`Git` · `GitHub` · `Linux` · `VS Code`
-
----
-
-# 📊 DEVELOPER STATS
+# 🧙‍♂️ PLAYER PROFILE
 
 ```text
-Bugs Fixed                    ██████████████░░░░░░  70%
-Dragons Defeated              ██████░░░░░░░░░░░░░░  30%
-Coffee Consumed               ████████████████████ 100%
-Stack Overflow Visits Today   ∞
-"It Works On My Machine"      47 times
-Production Incidents           Classified
+╔════════════════════════════════════════════════════╗
+║                    PLAYER CARD                     ║
+╠════════════════════════════════════════════════════╣
+║                                                    ║
+║  Name        : Swayam                              ║
+║  Class       : AI Engineer / Software Developer   ║
+║  Speciality  : AI • ML • Full Stack • Research    ║
+║  Weapon      : Python + C++ + Java                ║
+║  Secondary   : JavaScript + SQL                   ║
+║                                                    ║
+║  Current XP  : ███████████████░░░░░               ║
+║  Next Level  : Senior Dragon Slayer               ║
+║                                                    ║
+╚════════════════════════════════════════════════════╝
 ```
+
+---
+
+# ⚔️ CURRENT QUEST LOG
+
+* 🤖 Building AI-powered applications
+* 🧠 Researching Machine Learning & Generative AI
+* 📚 Building intelligent learning systems
+* 🌐 Developing full-stack applications
+* 🎮 Experimenting with game development
+* ☁️ Learning cloud, DevOps and system design
+* 🛡️ Exploring cybersecurity
+* 🔬 Turning research ideas into working prototypes
+
+### 🎯 Current Main Quest
+
+**Build intelligent systems that solve real-world problems.**
+
+---
+
+# 🐲 THE DRAGON
+
+<p align="center">
+  <img src="./assets/dragon.gif" width="300" alt="Animated coding dragon">
+</p>
+
+```text
+              🔥 🔥 🔥
+          🔥    🐉    🔥
+             /████\
+        ____/██████\____
+       /                \
+      /   CODE DRAGON    \
+      \                  /
+       \________________/
+
+          HP: ████████████████████
+
+          ⚔️ ATTACK OPTIONS
+
+          [ DEBUG ]
+          [ REFACTOR ]
+          [ TEST ]
+          [ DEPLOY ]
+
+          Dragon Status:
+          🟢 ACTIVE
+```
+
+The dragon isn't a fake statistic.
+
+It's the **guardian of every bug hiding inside production code.**
+
+---
+
+# 🛠️ ARSENAL
+
+## 💻 Programming Languages
+
+<p align="center">
+
+`C` • `C++` • `Java` • `Python` • `JavaScript` • `SQL`
+
+</p>
+
+## 🤖 AI / Machine Learning
+
+<p align="center">
+
+`NumPy` • `Pandas` • `Scikit-learn` • `TensorFlow` • `PyTorch`
+
+`Generative AI` • `LLMs` • `RAG` • `LangChain` • `LlamaIndex`
+
+</p>
+
+## 🌐 Web Development
+
+<p align="center">
+
+`HTML` • `CSS` • `JavaScript` • `React`
+
+`Node.js` • `Express.js`
+
+</p>
+
+## 🗄️ Databases
+
+<p align="center">
+
+`MongoDB` • `MySQL` • `Oracle SQL`
+
+</p>
+
+## ☁️ Cloud & DevOps
+
+<p align="center">
+
+`AWS` • `Docker` • `Terraform`
+
+`Jenkins` • `Ansible` • `Git` • `GitHub` • `Linux`
+
+</p>
+
+---
+
+# 📊 LIVE DEVELOPER STATUS
+
+> These sections are designed to use **real GitHub activity**, not manually invented numbers.
+
+<p align="center">
+  <img src="./assets/github-stats.svg" alt="GitHub Statistics">
+</p>
+
+<p align="center">
+  <img src="./assets/github-streak.svg" alt="GitHub Contribution Streak">
+</p>
+
+<p align="center">
+  <img src="./assets/github-languages.svg" alt="Most Used Languages">
+</p>
 
 ---
 
 # 🏰 BOSS FIGHT HISTORY
 
-| 🐉 Boss                         | ⚔️ Weapon Used          | 🏆 Outcome                    |
-| ------------------------------- | ----------------------- | ----------------------------- |
-| **The Merge Conflict Hydra**    | `git rebase` + patience | Defeated after 3 respawns     |
-| **The Infinite Loop Wyrm**      | A well-placed `break;`  | One-shot kill                 |
-| **The 3AM Deploy Demon**        | Coffee + blind faith    | Survived. Barely.             |
-| **The "Works Locally" Phantom** | Docker                  | Banished to another dimension |
-| **The Dependency Kraken**       | `npm install` + prayer  | Still under investigation     |
+| 👹 Boss                        | ⚔️ Weapon             | 🏆 Result       |
+| ------------------------------ | --------------------- | --------------- |
+| 🐍 Merge Conflict Hydra        | `git rebase`          | Defeated        |
+| 🔁 Infinite Loop Wyrm          | `break;`              | One-shot        |
+| 👻 Works-on-My-Machine Phantom | Docker                | Banished        |
+| 🐙 Dependency Kraken           | Package management    | Survived        |
+| 🔥 3AM Deployment Demon        | Coffee + debugging    | Barely survived |
+| 🧠 NullPointerException Beast  | Defensive programming | Defeated        |
 
 ---
 
-# 🧪 CURRENT EXPERIMENTS
+# 🧪 RESEARCH LAB
+
+## 📚 AI Textbook & Lab Synthesizer
+
+An AI-powered system designed to transform technical textbooks and learning resources into structured, intelligent study material.
+
+### ⚡ Core Architecture
 
 ```text
-[██████████████████░░] AI Research
-[████████████████░░░░] Full-Stack Development
-[██████████████░░░░░░] Machine Learning
-[████████████░░░░░░░░] Cybersecurity
-[██████████░░░░░░░░░░] System Design
+             📚 TEXTBOOKS
+                  │
+                  ▼
+             🔎 OCR / TEXT
+                  │
+                  ▼
+          🧹 PREPROCESSING
+                  │
+                  ▼
+         🧠 EMBEDDING ENGINE
+                  │
+                  ▼
+             ⚡ FAISS
+                  │
+                  ▼
+          🔍 SEMANTIC SEARCH
+                  │
+                  ▼
+              🧠 RAG
+                  │
+                  ▼
+             🤖 GEMINI AI
+                  │
+                  ▼
+        ┌────────────────────┐
+        │  AI NOTE SYNTHESIS │
+        └────────────────────┘
+                  │
+          ┌───────┼────────┐
+          ▼       ▼        ▼
+       📖 Notes  🧪 Labs  📑 Reports
+                  │
+                  ▼
+             📄 PDF OUTPUT
 ```
 
-Currently building things where **AI + software engineering + automation** collide.
-
----
-
-# 🧠 RESEARCH LAB
-
-### 📚 AI Textbook & Lab Synthesizer
-
-An AI-powered research system designed to transform technical textbooks and learning resources into structured, intelligent study material.
-
-**Core abilities:**
+### Features
 
 * 📖 Multi-book semantic retrieval
 * 🔎 Semantic chapter search
-* 🧠 Vector embeddings & similarity search
-* ⚡ FAISS-powered retrieval
-* 🤖 RAG-based knowledge synthesis
-* 📝 AI-generated lecture notes
-* 🧪 Laboratory / practical content generation
-* 📑 Professional PDF report generation
-* 🔀 Autonomous routing for topic, retrieval intent, output format and note style
-
-> Turning **pages of information → structured knowledge → useful learning.**
+* 🧠 Vector embeddings
+* ⚡ FAISS similarity search
+* 🤖 Retrieval-Augmented Generation
+* 📝 AI note synthesis
+* 🧪 Laboratory content generation
+* 📑 Academic report generation
+* 📄 Professional PDF generation
+* 🔀 Intelligent query routing
+* 🎯 Automatic output-format detection
 
 ---
 
-# 🎮 PROJECT REALM
+# 🚀 PROJECT REALM
 
-Some of the things I've built or experimented with:
+### 🤖 Artificial Intelligence
 
-* 🤖 AI-powered applications
-* 🧠 Machine Learning projects
-* 🌐 Full-stack web applications
-* 🎮 C++ / SFML games
-* 📊 Data analytics dashboards
-* 🛡️ Cybersecurity concepts and automation
-* ☁️ Cloud & DevOps workflows
-* 🔬 AI research systems
+Building systems around:
+
+```text
+LLMs
+ │
+ ├── RAG
+ ├── Semantic Search
+ ├── AI Agents
+ ├── Knowledge Retrieval
+ ├── Document Intelligence
+ └── Generative AI
+```
+
+### 🎮 Game Development
+
+Experimenting with:
+
+```text
+C++
+ │
+ └── SFML
+      ├── Game Mechanics
+      ├── Collision Detection
+      ├── Player Systems
+      └── Enemy Systems
+```
+
+### 📊 Data & Analytics
+
+```text
+Dataset
+   ↓
+Cleaning
+   ↓
+Exploration
+   ↓
+Visualization
+   ↓
+Machine Learning
+   ↓
+Insights
+```
+
+---
+
+# 🧠 DEVELOPER MINDSET
+
+```text
+        ┌───────────────┐
+        │     LEARN     │
+        └───────┬───────┘
+                ↓
+        ┌───────────────┐
+        │     BUILD     │
+        └───────┬───────┘
+                ↓
+        ┌───────────────┐
+        │     BREAK     │
+        └───────┬───────┘
+                ↓
+        ┌───────────────┐
+        │     DEBUG     │
+        └───────┬───────┘
+                ↓
+        ┌───────────────┐
+        │   REFACTOR    │
+        └───────┬───────┘
+                ↓
+        ┌───────────────┐
+        │     SHIP      │
+        └───────┬───────┘
+                │
+                └──────────────→ 🔁
+```
 
 ---
 
 # 🏆 ACHIEVEMENTS
 
 ```text
-╔══════════════════════════════════════════════╗
-║              PLAYER ACHIEVEMENTS             ║
-╠══════════════════════════════════════════════╣
-║ 🥋 National-Level Taekwondo                 ║
-║ 💻 Computer Science Background               ║
-║ 🤖 AI / ML Research                          ║
-║ 🎮 Game Development                          ║
-║ 📊 Data Analytics                            ║
-║ ☁️ Cloud & DevOps                            ║
-║ 🔬 Research & Technical Projects              ║
-╚══════════════════════════════════════════════╝
+╔══════════════════════════════════════════╗
+║              ACHIEVEMENTS                ║
+╠══════════════════════════════════════════╣
+║                                          ║
+║  🥋 National-Level Taekwondo             ║
+║  💻 Computer Science Engineering         ║
+║  🤖 AI / ML Projects                     ║
+║  🔬 AI Research                          ║
+║  🎮 Game Development                     ║
+║  📊 Data Analytics                       ║
+║  ☁️ Cloud & DevOps                       ║
+║  🧠 Generative AI                        ║
+║                                          ║
+╚══════════════════════════════════════════╝
 ```
 
 ---
 
-# 📈 LEVELING UP
+# ⚡ SYSTEM TERMINAL
 
 ```text
-Current Class:
-╔══════════════════════════════════╗
-║     AI Engineer / Developer      ║
-╚══════════════════════════════════╝
+> booting developer.exe...
 
-Next Class:
-             ↓
-╔══════════════════════════════════╗
-║      Senior Dragon Slayer       ║
-╚══════════════════════════════════╝
+[████████████████████] 100%
+
+✓ Loading Python
+✓ Loading C++
+✓ Loading Java
+✓ Loading AI Engine
+✓ Loading Git
+✓ Loading Docker
+✓ Loading Research Mode
+
+✓ Dragon detected
+
+> Dragon.exe started
+
+🐉: "Who dares enter production?"
+
+🧑‍💻: "Someone who forgot to commit."
+
+🐉: "..."
+
+🐉: "You have chosen death."
+
+⚔️ BATTLE STARTED
 ```
-
-The goal isn't just to learn another framework.
-
-It's to understand **how systems work**, build things that actually solve problems, and keep leveling up.
 
 ---
 
-# 🗺️ THE ROAD AHEAD
+# 🐉 FINAL BOSS
 
-```text
-Learn → Build → Break → Debug → Refactor → Deploy
-   ↑                                      ↓
-   └──────────── Repeat Forever ─────────┘
+```python
+while True:
+
+    learn()
+
+    build()
+
+    fail()
+
+    debug()
+
+    improve()
+
+    if problem_solved:
+        ship()
+
+    else:
+        summon_dragon()
 ```
 
-> **Build boldly. Debug patiently. Ship relentlessly.**
+<p align="center">
+
+### ⚔️ BUILD. BREAK. DEBUG. REPEAT. ⚔️
+
+🐉 **The dragon is waiting.**
+
+</p>
 
 ---
 
 # 🤝 OPEN TO QUESTS
 
-I'm interested in opportunities involving:
+Interested in opportunities involving:
 
-* 💻 Software Engineering
-* 🤖 AI / Machine Learning
-* 🧠 Generative AI
-* 🌐 Full-Stack Development
-* ☁️ Cloud & DevOps
-* 🔬 AI Research
+**Software Engineering • AI/ML • Generative AI • Full-Stack Development • Cloud/DevOps • AI Research**
 
-**If you've got an interesting problem, let's build something.**
+<p align="center">
 
-```text
-Recruiter enters the realm...
+### 🏰 THE DRAWBRIDGE IS DOWN.
 
-Drawbridge Status: 🟢 OPEN
-Dragon Status:      🐉 FRIENDLY
-Coffee Status:      ☕ REQUIRED
-```
+🐉 Dragon: **Friendly**
+⚔️ Bugs: **Not Welcome**
+☕ Coffee: **Required**
+🚀 Deployment: **Pending**
+
+</p>
 
 ---
 
-## ⚔️ FINAL BOSS
+<p align="center">
+  <i>“Every great system started as an idea.”</i>
+</p>
 
-```text
-while(alive) {
-    learn();
-    build();
-    fail();
-    debug();
-    improve();
-}
-```
-
-### 🐉 Game Over?
-
-**Not yet.**
+<p align="center">
+  🐉⚔️ <b>WELCOME TO THE REALM.</b> ⚔️🐉
+</p>
