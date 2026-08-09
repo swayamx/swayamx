@@ -104,8 +104,8 @@ Build intelligent systems that solve real-world problems.
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SwayamX&show_icons=true&theme=dracula&hide_border=true&bg_color=0D1117&title_color=FF4500&icon_color=FFD700&text_color=FFFFFF"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SwayamX&layout=compact&theme=dracula&hide_border=true&bg_color=0D1117&title_color=FF4500&text_color=FFFFFF"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SwayamX&show_icons=true&theme=dracula&hide_border=true&bg_color=0D1117&title_color=FF4500&icon_color=FFD700&text_color=FFFFFF&cache_seconds=86400"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SwayamX&layout=compact&theme=dracula&hide_border=true&bg_color=0D1117&title_color=FF4500&text_color=FFFFFF&cache_seconds=86400"/>
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=SwayamX&theme=dracula&hide_border=true&background=0D1117&ring=FF4500&fire=FFD700&currStreakLabel=FF4500" alt="GitHub Streak"/>
 
@@ -115,7 +115,13 @@ Build intelligent systems that solve real-world problems.
 
 </div>
 
-> Replace `SwayamX` with your real GitHub username in every URL above so these render **live, real data** instead of placeholders.
+> **Replace `SwayamX` with your real GitHub username** in every URL above so these render **live, real data**.
+>
+> ⚠️ **Why cards sometimes show as broken images:** the stats/top-langs/trophy cards are served from *free public demo instances* (`github-readme-stats.vercel.app`, `github-profile-trophy.vercel.app`) that are shared by thousands of profiles and frequently hit GitHub API rate limits. This is a known upstream issue, not a bug in this README. I've added `&cache_seconds=86400` above to reduce how often it re-fetches, which helps a lot. For a permanent fix, deploy your own free instance:
+> - [Deploy your own github-readme-stats →](https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own)
+> - [Deploy your own github-profile-trophy →](https://github.com/ryo-ma/github-profile-trophy#-deploy-your-own-vercel-instance)
+>
+> Once deployed, just swap `github-readme-stats.vercel.app` and `github-profile-trophy.vercel.app` in the URLs above for your own `*.vercel.app` domain — same query params, guaranteed uptime under your own rate limit.
 
 ---
 
