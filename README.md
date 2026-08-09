@@ -316,16 +316,6 @@ graph LR
 
 ---
 
-## 🐍 CONTRIBUTION SNAKE
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/SwayamX/SwayamX/output/github-contribution-grid-snake.svg" width="100%" alt="snake animation" />
-</div>
-
-> This animated snake eats your real contribution graph. Set it up once via the [`platane/snk`](https://github.com/Platane/snk) GitHub Action on your repo — it updates automatically every day.
-
----
-
 ## 🐉 FINAL BOSS
 
 ```python
