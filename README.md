@@ -1,103 +1,97 @@
-<div align="center">
+&lt;div align=&quot;center&quot;&gt;
 
-<!-- Animated Wave Hero Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,35:2EA043,70:0969DA,100:8957E5&height=210&section=header&text=Pull%20Request%20%2342&fontSize=46&fontColor=ffffff&fontAlignY=38&desc=feat%3A%20add%20%40SwayamX%20to%20your-team%3Amain&descAlignY=62&descSize=17&animation=twinkling" width="100%" alt="Pull Request https://www.google.com/search?q=%2342 Header Banner" />
+&lt;!-- Animated Dragon Boss Fight Hero Scene (place dragon-battle.svg in your repo root) --&gt;
+&lt;img src=&quot;./dragon-battle.svg&quot; width=&quot;100%&quot; alt=&quot;Animated Boss Fight: @SwayamX rushing to defeat the Production Bug Dragon&quot; /&gt;
 
-<!-- Animated Typing Subheader -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=21&duration=2600&pause=900&color=2EA043&center=true&vCenter=true&width=820&height=52&lines=AI+Engineer+%7C+Full-Stack+Developer+%7C+C%2B%2B+Game+Dev;Building+LLM+Apps%2C+RAG+Pipelines+%26+Semantic+Search;Shipping+Full-Stack+Products+%26+Dockerized+Deployments;National-Level+Taekwondo+%E2%86%92+Calm+Under+Production+Bugs;Status%3A+All+Checks+Passing+%E2%80%94+Ready+for+Review+%E2%9C%85" alt="Animated role and status ticker" />
+<br/>
 
-<!-- PR Status & Reviewer Badges -->
+&lt;!-- Animated Battle Ticker --&gt;
+&lt;img src=&quot;https://readme-typing-svg.demolab.com?font=JetBrains+Mono&amp;weight=800&amp;size=22&amp;duration=2500&amp;pause=800&amp;color=FB7185&amp;center=true&amp;vCenter=true&amp;width=840&amp;height=52&amp;lines=%F0%9F%90%89+ALERT%3A+Production+Bug+Dragon+Attacked+main!;%E2%9A%A1+%40SwayamX+rushed+in+with+Docker+Shield+%26+RAG+Spells;AI+Engineer+%7C+Full-Stack+Dev+%7C+C%2B%2B+Game+Dev+%7C+Taekwondo+%F0%9F%A5%8B;Status%3A+Bugs+Patched+%E2%80%A2+Server+Saved+%E2%80%A2+Ready+to+Join+Your+Party+%E2%9C%85&quot; alt=&quot;Animated Dragon Boss Fight Ticker&quot; /&gt;
 
-<!-- Animated Terminal Command Strip -->
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=14&duration=2200&pause=1100&color=58A6FF&center=true&vCenter=true&width=680&height=34&lines=%24+git+checkout+-b+swayam%2Fai-fullstack;%24+docker+compose+up+--build+%23+works+on+every+machine;%24+pytest+ai%2F+fullstack%2F+games%2F+%E2%86%92+ALL+PASSED;%24+gh+pr+merge+42+--squash+--ready" alt="Animated terminal commands" />
+<br/>
 
-</div>
+&lt;!-- Boss Fight Status Badges --&gt;
 
-## 📝 Pull Request Summary
 
-> **`feat: add AI engineer who also ships full-stack, games, and the occasional taekwondo kick`**
 
-**`@SwayamX`** wants to merge **1 engineer** into `your-team:main` from `swayam/ai-fullstack`
 
-| Field | Details | 
-| ----- | ----- | 
-| **Branch** | `swayam/ai-fullstack` → `main` | 
-| **Labels** |  | 
-| **Assignee** | You *(after merge, me)* | 
-| **Milestone** | Ship something people actually use | 
 
-## 📖 Description
 
-Hi reviewers 👋
+&lt;/div&gt;
 
-This PR introduces an **AI Engineer & Full-Stack Developer** who builds intelligent systems that solve real problems—then wraps them in interfaces people genuinely enjoy using.
+---
 
-<table>
-<tr>
-<td width="60%" valign="top">
+## 🐉 Quest Log: Saving Production from the Bug Dragon
 
-### ✨ What Changed
+> **`QUEST #42: A wild Production Bug Dragon breathed 500 Errors on Friday night. @SwayamX sprinted in to patch the codebase and save the server.`**
 
-* 🤖 **AI & RAG Systems** — LLM apps, retrieval pipelines, and semantic search
+Hi adventurer 👋 I'm **Swayam (`@SwayamX`)** — an **AI Engineer & Full-Stack Developer** who builds intelligent systems, ships clean interfaces, and treats production bugs like boss fights.
 
-* 🌐 **Full-Stack Delivery** — React, Node.js, Express, plus plenty of vanilla JS
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td width=&quot;58%&quot; valign=&quot;top&quot;&gt;
 
-* 🎮 **C++ / SFML Games** — Custom collision systems, enemies, and player mechanics
+### 🛡️ How I Counter the Dragon
+- 🤖 **AI & RAG Magic** — LLM apps, retrieval pipelines, and semantic search
+- 🌐 **Full-Stack Strikes** — React, Node.js, Express, plus battle-tested vanilla JS
+- 🎮 **C++ / SFML Combat Engine** — Custom collisions, enemies, and player systems
+- ☁️ **Docker & Cloud Armor** — Docker, AWS, Terraform, Jenkins, Ansible, Linux
+- 🔐 **Cybersecurity Radar** — Always scanning for hidden traps and vulnerabilities
 
-* ☁️ **Cloud & DevOps** — Docker, AWS, Terraform, Jenkins, Ansible, and Linux
+### 🚫 Debuffs Permanently Removed
+- ❌ *"It works on my machine"* *(blocked permanently by **Docker Shield**)*
 
-* 🛡️ **Security Mindset** — Ongoing curiosity about cybersecurity
+&lt;/td&gt;
+&lt;td width=&quot;42%&quot; align=&quot;center&quot; valign=&quot;middle&quot;&gt;
+  &lt;img src=&quot;https://api.memegen.link/images/drake/Reading_the_docs/Building_an_AI_that_reads_the_docs_for_me.png&quot; width=&quot;295&quot; alt=&quot;Drake meme about building an AI to read the docs&quot; /&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
 
-### 🚫 What Did NOT Change
+---
 
-* ❌ Saying *"it works on my machine"* *(permanently patched with Docker)*
+## ⚔️ Combat Readiness & Bug-Fix Checks
 
-</td>
-<td width="40%" align="center" valign="middle">
-<img src="https://api.memegen.link/images/drake/Reading_the_docs/Building_an_AI_that_reads_the_docs_for_me.png" width="290" alt="Drake meme about building an AI to read the docs" />
-</td>
-</tr>
-</table>
-
-## ✅ CI / CD Pipeline Checks
-
-```
-+ ✓ Python ............................. PASSED
-+ ✓ C++ ................................ PASSED
-+ ✓ Java ............................... PASSED
-+ ✓ JavaScript ......................... PASSED
-+ ✓ SQL ................................ PASSED
-+ ✓ Generative AI / LLMs / RAG ......... PASSED
-+ ✓ Docker ............................. PASSED
-- ✗ Sleep schedule ..................... FAILED (known issue, won't fix)
+```diff
++ ✓ Python ............................. CRIT HIT (PASSED)
++ ✓ C++ ................................ CRIT HIT (PASSED)
++ ✓ Java ............................... HIT (PASSED)
++ ✓ JavaScript ......................... HIT (PASSED)
++ ✓ SQL ................................ HIT (PASSED)
++ ✓ Generative AI / LLMs / RAG ......... SUPER EFFECTIVE (PASSED)
++ ✓ Docker Shield ...................... ACTIVE (PASSED)
+- ✗ Sleep schedule ..................... FAILED (dragon attacked at 2 AM)
 - ✗ Merge conflicts without crying ..... FLAKY
-! ⚠ Dependency hell .................... SURVIVED
-
+! ⚠ Dependency hell .................... SURVIVED WITH 1 HP
 ```
 
-<details>
-<summary><b>🖥️ Click to inspect raw CI build logs & Friday deployment policy</b></summary>
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;🔥 Click to open Emergency Friday Deployment Battle Log&lt;/b&gt;&lt;/summary&gt;
 
+<br/>
+
+```text
+[00:00.12] 🐉 PROD-BUG DRAGON used "500 Internal Server Error"!
+[00:00.48] 🚨 Production server HP dropped to 12%!
+[00:01.05] ⚡ @SwayamX rushed in with DOCKER SHIELD!
+[00:01.90] 🥋 @SwayamX used National-Level Taekwondo Focus — zero panic, found the root cause.
+[00:02.74] 🟢 @SwayamX cast `git commit -m "fix: dragon patched"` — CRITICAL HIT!
+[00:03.10] ✅ All tests passing. Production saved!
 ```
-[00:01.04] Initializing @SwayamX runtime...
-[00:02.18] Loading AI/ML stack: PyTorch, TensorFlow, LangChain, LlamaIndex, FAISS... OK
-[00:03.41] Checking Docker containers... ZERO "works on my machine" warnings
-[00:04.09] Running sleep_schedule.test.py... SKIPPED (wontfix)
-[00:04.55] Build status: GREEN — ready to ship!
 
-```
+&lt;div align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://www.google.com/search?q=https://api.memegen.link/images/fine/Production\_is\_on\_fire/Me\_rushing\_in\_with\_a\_hotfix.png&quot; width=&quot;330&quot; alt=&quot;This is fine hotfix meme&quot; /&gt;
+&lt;/div&gt;
 
-<div align="center">
-<img src="https://api.memegen.link/images/fine/Deploying_on_Friday/This_is_fine.png" width="320" alt="This is fine Friday deployment meme" />
-</div>
+&lt;/details&gt;
 
-</details>
+---
 
-## 🧪 Feature Spotlight: AI Textbook & Lab Synthesizer
+## 🔮 Ultimate Spell: AI Textbook & Lab Synthesizer
 
-> Turns dense technical textbooks into structured study material using multi-book RAG and automated PDF generation.
+> Turns giant technical textbooks into structured study material using multi-book RAG and automated PDF generation.
 
-```
+```mermaid
 flowchart LR
     A[📚 Textbooks] --> B[🔎 OCR]
     B --> C[🧠 Embeddings]
@@ -113,147 +107,178 @@ flowchart LR
     style D fill:#1F6FEB,stroke:#58A6FF,stroke-width:2px,color:#fff
     style F fill:#2EA043,stroke:#3FB950,stroke-width:2px,color:#fff
     style J fill:#8957E5,stroke:#A371F7,stroke-width:2px,color:#fff
-
 ```
 
-<div align="center">
+&lt;div align=&quot;center&quot;&gt;
 
-<img src="https://api.memegen.link/images/buzz/Vectors/Vectors_everywhere.png" width="300" alt="Vectors everywhere meme" />
 
-</div>
 
-## 🧰 Tech Stack (`Files Changed`)
 
-<div align="center">
 
-<img src="https://skillicons.dev/icons?i=py,cpp,java,js,react,nodejs,express,html,css,tensorflow,pytorch,sklearn,mongodb,mysql,aws,docker,terraform,jenkins,ansible,git,linux&perline=7&theme=dark" alt="Tech Stack Icons" />
 
-</div>
 
-<details open>
-<summary><b>📂 View full stack diff (+28 additions, 0 regrets)</b></summary>
+<br/><br/>
 
-```
-@@ Languages @@
+&lt;img src=&quot;https://api.memegen.link/images/buzz/Vectors/Vectors_everywhere.png&quot; width=&quot;300&quot; alt=&quot;Vectors everywhere meme&quot; /&gt;
+
+&lt;/div&gt;
+
+---
+
+## 🧰 Armory & Weapon Loadout (Tech Stack)
+
+&lt;div align=&quot;center&quot;&gt;
+
+&lt;img src=&quot;https://skillicons.dev/icons?i=py,cpp,java,js,react,nodejs,express,html,css,tensorflow,pytorch,sklearn,mongodb,mysql,aws,docker,terraform,jenkins,ansible,git,linux&amp;perline=7&amp;theme=dark&quot; alt=&quot;Tech Stack Icons&quot; /&gt;
+
+&lt;/div&gt;
+
+<br/>
+
+&lt;details open&gt;
+&lt;summary&gt;&lt;b&gt;🗡️ Inspect Full Inventory Diff&lt;/b&gt;&lt;/summary&gt;
+
+```diff
+@@ Primary Weapons (Languages) @@
 + Python  C++  Java  JavaScript  SQL
 
-@@ AI / ML @@
+@@ Arcane Arts (AI / ML) @@
 + TensorFlow  PyTorch  NumPy  Pandas  Scikit-learn
 + LangChain  LlamaIndex  RAG  LLMs
 
-@@ Web @@
+@@ Web Forge @@
 + HTML  CSS  React  Node.js  Express
 
-@@ Data @@
+@@ Vaults (Databases) @@
 + MongoDB  MySQL  Oracle
 
-@@ Cloud / DevOps @@
+@@ Fortress & DevOps @@
 + AWS  Docker  Terraform  Jenkins  Ansible  Git  Linux
-
 ```
 
-</details>
+&lt;/details&gt;
 
-## 📊 Live GitHub Telemetry
+---
 
-<div align="center">
+## 📊 Live Battle Telemetry
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=SwayamX&show_icons=true&theme=github_dark&hide_border=true&title_color=2EA043&icon_color=0969DA&text_color=C9D1D9&bg_color=0D1117" alt="SwayamX GitHub Stats" />
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SwayamX&layout=compact&theme=github_dark&hide_border=true&title_color=2EA043&text_color=C9D1D9&bg_color=0D1117" alt="SwayamX Top Languages" />
+&lt;div align=&quot;center&quot;&gt;
 
-<img src="https://streak-stats.demolab.com/?user=SwayamX&theme=github-dark-blue&hide_border=true&ring=2EA043&fire=8957E5&currStreakLabel=2EA043&background=0D1117" alt="SwayamX GitHub Streak" />
+&lt;img height=&quot;175&quot; src=&quot;https://github-readme-stats.vercel.app/api?username=SwayamX&amp;show_icons=true&amp;theme=github_dark&amp;hide_border=true&amp;title_color=2EA043&amp;icon_color=FB7185&amp;text_color=C9D1D9&amp;bg_color=0D1117&quot; alt=&quot;SwayamX GitHub Stats&quot; /&gt;
+&lt;img height=&quot;175&quot; src=&quot;https://github-readme-stats.vercel.app/api/top-langs/?username=SwayamX&amp;layout=compact&amp;theme=github_dark&amp;hide_border=true&amp;title_color=2EA043&amp;text_color=C9D1D9&amp;bg_color=0D1117&quot; alt=&quot;SwayamX Top Languages&quot; /&gt;
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=SwayamX&bg_color=0D1117&color=C9D1D9&line=2EA043&point=8957E5&area=true&area_color=2EA043&hide_border=true" width="96%" alt="SwayamX Contribution Activity Graph" />
+<br/>
 
-</div>
+&lt;img src=&quot;https://streak-stats.demolab.com/?user=SwayamX&amp;theme=github-dark-blue&amp;hide_border=true&amp;ring=2EA043&amp;fire=FB7185&amp;currStreakLabel=2EA043&amp;background=0D1117&quot; alt=&quot;SwayamX GitHub Streak&quot; /&gt;
 
-## 💬 Review Comments & Merge Conflicts
+<br/>
 
-<table>
-<tr>
-<td width="55%" valign="top">
+&lt;img src=&quot;https://github-readme-activity-graph.vercel.app/graph?username=SwayamX&amp;bg_color=0D1117&amp;color=C9D1D9&amp;line=2EA043&amp;point=FB7185&amp;area=true&amp;area_color=2EA043&amp;hide_border=true&quot; width=&quot;96%&quot; alt=&quot;SwayamX Contribution Activity Graph&quot; /&gt;
 
-> **🧑‍💻 Reviewer 1:** Why is there a taekwondo commit in an AI engineer's history?
+&lt;/div&gt;
+
+---
+
+## 💬 Guild Dialogue & Boss Encounters
+
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td width=&quot;56%&quot; valign=&quot;top&quot;&gt;
+
+> **🧑‍💻 Guild Reviewer 1:** Wait—why does an AI engineer have a Taekwondo skill tree?
 >
-> **@SwayamX:** National-level discipline. It transfers directly to debugging: stay calm, find the opening, strike once. 🥋
+> **@SwayamX:** National-level Taekwondo discipline. When a production dragon breathes fire, you stay calm, spot the opening, and strike once. 🥋
 
-> **🧑‍💻 Reviewer 2:** Any concerns?
+> **🧑‍💻 Guild Reviewer 2:** Any dangerous habits we should know about?
 >
-> **@SwayamX:** Only that I'll ask *"one more feature before we deploy"* and genuinely mean it.
+> **@SwayamX:** I will say *"let me ship one more feature before deployment"* and actually mean it.
 
-</td>
-<td width="45%" align="center" valign="middle">
-<img src="https://api.memegen.link/images/stonks/Adding_one_more_feature/Right_before_the_deadline.png" width="290" alt="Stonks meme about adding one more feature" />
-</td>
-</tr>
-</table>
+&lt;/td&gt;
+&lt;td width=&quot;44%&quot; align=&quot;center&quot; valign=&quot;middle&quot;&gt;
+  &lt;img src=&quot;https://www.google.com/search?q=https://api.memegen.link/images/stonks/Adding\_one\_more\_feature/Right\_before\_the\_boss\_fight.png&quot; width=&quot;295&quot; alt=&quot;Stonks meme about adding one more feature&quot; /&gt;
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
 
-<details>
-<summary><b>⚠️ 1 Merge Conflict Detected — Click to resolve</b></summary>
+&lt;details&gt;
+&lt;summary&gt;&lt;b&gt;⚠️ Mid-Battle Merge Conflict — Click to choose your fate&lt;/b&gt;&lt;/summary&gt;
 
-```
+<br/>
+
+```text
 <<<<<<< HEAD
 I should sleep.
 =======
-But the bug is so close.
+The dragon is at 1 HP and the bug is almost fixed.
 >>>>>>> swayam/ai-fullstack
 
-Resolve manually: choose "one more hour".
-
+Manual resolution: choose "one more hour".
 ```
 
-<div align="center">
-<img src="https://api.memegen.link/images/rollsafe/Can&https://www.google.com/search?q=%2339;t_have_production_bugs/If_you_never_deploy.png" width="310" alt="Roll safe meme about production bugs" />
-</div>
+&lt;div align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://api.memegen.link/images/rollsafe/Can&https://www.google.com/search?q=%2339;t_spawn_a_production_dragon/If_you_never_deploy.png&quot; width=&quot;320&quot; alt=&quot;Roll safe meme about deploying&quot; /&gt;
+&lt;/div&gt;
 
-</details>
+&lt;/details&gt;
 
-## 🏆 Merge Impact & Options
+---
 
-<table>
-<tr>
-<td width="52%" valign="top">
+## 🏆 Character Sheet & Recruit Options
 
-### 📈 Merge Impact
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td width=&quot;52%&quot; valign=&quot;top&quot;&gt;
 
-| Metric | Value | 
-| ----- | ----- | 
-| 🥋 **Discipline** | National-Level Taekwondo | 
-| 🎓 **Foundation** | Computer Science Engineering | 
-| 🔬 **Research** | AI / ML / Generative AI | 
-| 🎮 **Side Quests** | C++ Game Development | 
-| 📊 **Superpower** | Data Analytics & Insights | 
-| 🐛 **Bugs Introduced** | Statistically non-zero | 
-| 🐛 **Bugs Fixed** | Statistically more | 
+### 🎖️ Hero Stats
 
-</td>
-<td width="48%" valign="top">
+| Attribute | Rank / Value |
+| :--- | :--- |
+| 🥋 **Discipline** | National-Level Taekwondo |
+| 🎓 **Origin** | Computer Science Engineering |
+| 🔬 **Specialization** | AI / ML / Generative AI |
+| 🎮 **Side Quests** | C++ Game Development |
+| 📊 **Superpower** | Data Analytics & Insights |
+| 🐛 **Bugs Spawned** | Statistically non-zero |
+| 🐉 **Bugs Slain** | Statistically more |
 
-### 🚦 Merge Options
+&lt;/td&gt;
+&lt;td width=&quot;48%&quot; valign=&quot;top&quot;&gt;
 
-* \[x\] **Squash and merge** — hire me, I'll ship fast
+### 🚦 Summon `@SwayamX` to Your Party
 
-* \[x\] **Rebase and merge** — keep the history, keep the lore
+- [x] **Squash & Recruit** — hire me, I'll ship fast
+- [x] **Rebase & Recruit** — keep the commit lore
+- [x] **Co-op Quest** — let's build something cool
+- [ ] ~~Flee from the Dragon~~ *(disabled by repo admin)*
 
-* \[x\] **Create a merge commit** — let's talk first
+<br/>
 
-* \[ \] Close without merging *(disabled by repo admin)*
+&lt;div align=&quot;center&quot;&gt;
+  &lt;img src=&quot;https://www.google.com/search?q=https://api.memegen.link/images/success/Slayed\_the\_bug\_dragon/Without\_spawning\_three\_more.png&quot; width=&quot;275&quot; alt=&quot;Success kid meme about slaying the bug dragon&quot; /&gt;
+&lt;/div&gt;
 
-<div align="center">
-<img src="https://api.memegen.link/images/success/Fixed_the_bug/Without_creating_three_more.png" width="270" alt="Success kid meme about fixing a bug" />
-</div>
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
 
-</td>
-</tr>
-</table>
+---
 
-<div align="center">
+&lt;div align=&quot;center&quot;&gt;
 
-### 🟢 This branch has no conflicts with your team
+### 🟢 Production is safe — ready to join your team!
 
-<sub>LGTM 👍 · Approved by Future You</sub>
+<br/>
 
-<!-- Animated Wave Footer -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2EA043,50:0969DA,100:8957E5&height=130&section=footer&text=LGTM%20%F0%9F%91%8D%20%E2%80%A2%20Ready%20to%20Merge&fontSize=20&fontColor=ffffff&fontAlignY=72&animation=fadeIn" width="100%" alt="Animated Wave Footer" />
+[](#)
+[](#)
+[](#)
 
-</div>
+
+<br/><br/>
+
+&lt;sub&gt;LGTM 👍 · Approved by Future You&lt;/sub&gt;
+
+&lt;!-- Animated Wave Footer --&gt;
+&lt;img src=&quot;https://capsule-render.vercel.app/api?type=waving&amp;color=0:E11D48,50:2EA043,100:8957E5&amp;height=130&amp;section=footer&amp;text=Dragon%20Patched%20%F0%9F%90%89%20%E2%80%A2%20Production%20Saved!&amp;fontSize=20&amp;fontColor=ffffff&amp;fontAlignY=72&amp;animation=fadeIn&quot; width=&quot;100%&quot; alt=&quot;Animated Wave Footer&quot; /&gt;
+
+&lt;/div&gt;
