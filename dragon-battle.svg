@@ -1,0 +1,470 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="960" height="360" role="img" aria-label="Animated battle between @SwayamX and the Production Bug Dragon">
+  <defs>
+    <!-- Sky & Ground Gradients -->
+    <linearGradient id="skyGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="55%" stop-color="#0D1117"/>
+      <stop offset="100%" stop-color="#161B26"/>
+    </linearGradient>
+
+    <linearGradient id="groundGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1B2333"/>
+      <stop offset="100%" stop-color="#090D16"/>
+    </linearGradient>
+
+    <!-- Dragon Gradients -->
+    <linearGradient id="dragonBody" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E11D48"/>
+      <stop offset="55%" stop-color="#9F1239"/>
+      <stop offset="100%" stop-color="#4C0519"/>
+    </linearGradient>
+
+    <linearGradient id="dragonWing" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8957E5"/>
+      <stop offset="50%" stop-color="#BE123C"/>
+      <stop offset="100%" stop-color="#3B0764"/>
+    </linearGradient>
+
+    <!-- Fire & Patch Beam Gradients -->
+    <linearGradient id="fireGrad" x1="100%" y1="50%" x2="0%" y2="50%">
+      <stop offset="0%" stop-color="#FEF08A"/>
+      <stop offset="35%" stop-color="#F97316"/>
+      <stop offset="75%" stop-color="#EF4444"/>
+      <stop offset="100%" stop-color="#991B1B" stop-opacity="0"/>
+    </linearGradient>
+
+    <linearGradient id="patchBeam" x1="0%" y1="50%" x2="100%" y2="50%">
+      <stop offset="0%" stop-color="#2EA043" stop-opacity="0.1"/>
+      <stop offset="40%" stop-color="#3FB950"/>
+      <stop offset="85%" stop-color="#58A6FF"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+
+    <radialGradient id="shieldGrad" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#58A6FF" stop-opacity="0.05"/>
+      <stop offset="70%" stop-color="#2EA043" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#58A6FF" stop-opacity="0.75"/>
+    </radialGradient>
+
+    <radialGradient id="impactGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.95"/>
+      <stop offset="40%" stop-color="#3FB950" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#2EA043" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Glow Filters -->
+    <filter id="glowGreen" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <filter id="glowRed" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <clipPath id="roundedFrame">
+      <rect x="0" y="0" width="960" height="360" rx="16" ry="16"/>
+    </clipPath>
+  </defs>
+
+  <style><![CDATA[
+    .mono { font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, monospace; }
+
+    /* Twinkling stars */
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.25; }
+      50% { opacity: 0.95; }
+    }
+    .star1 { animation: twinkle 2.4s ease-in-out infinite; }
+    .star2 { animation: twinkle 3.3s ease-in-out infinite 0.8s; }
+    .star3 { animation: twinkle 2.9s ease-in-out infinite 1.5s; }
+
+    /* Rising embers */
+    @keyframes emberFloat {
+      0% { transform: translate(0, 0) scale(1); opacity: 0; }
+      20% { opacity: 0.9; }
+      100% { transform: translate(-45px, -110px) scale(0.2); opacity: 0; }
+    }
+    .ember1 { animation: emberFloat 3.2s linear infinite; }
+    .ember2 { animation: emberFloat 2.7s linear infinite 0.9s; }
+    .ember3 { animation: emberFloat 3.6s linear infinite 1.7s; }
+    .ember4 { animation: emberFloat 2.4s linear infinite 2.1s; }
+
+    /* Dragon hover & lunge */
+    @keyframes dragonMotion {
+      0%, 100% { transform: translate(0px, 0px); }
+      25% { transform: translate(-18px, -10px); }
+      45% { transform: translate(-26px, 4px); }
+      68% { transform: translate(12px, -8px); }
+      80% { transform: translate(6px, 2px); }
+    }
+    .dragon-group {
+      animation: dragonMotion 4.4s ease-in-out infinite;
+    }
+
+    /* Dragon wing flap */
+    @keyframes wingFlap {
+      0%, 100% { transform: rotate(0deg) scaleY(1); }
+      50% { transform: rotate(-16deg) scaleY(0.84); }
+    }
+    .dragon-wing-front {
+      transform-origin: 730px 150px;
+      animation: wingFlap 0.9s ease-in-out infinite;
+    }
+    .dragon-wing-back {
+      transform-origin: 745px 145px;
+      animation: wingFlap 0.9s ease-in-out infinite 0.15s;
+    }
+
+    /* Dragon tail sway */
+    @keyframes tailSway {
+      0%, 100% { transform: rotate(0deg); }
+      50% { transform: rotate(9deg); }
+    }
+    .dragon-tail {
+      transform-origin: 805px 215px;
+      animation: tailSway 1.8s ease-in-out infinite;
+    }
+
+    /* Dragon fire breath */
+    @keyframes fireBlast {
+      0%, 12% { transform: translateX(0px) scaleX(0.15); opacity: 0; }
+      25% { transform: translateX(-20px) scaleX(1); opacity: 1; }
+      48% { transform: translateX(-110px) scaleX(1.05); opacity: 0.95; }
+      58%, 100% { transform: translateX(-155px) scaleX(0.3); opacity: 0; }
+    }
+    .fire-stream {
+      transform-origin: 605px 175px;
+      animation: fireBlast 4.4s ease-in-out infinite;
+    }
+
+    /* Flying Bug projectiles */
+    @keyframes bugFly {
+      0%, 15% { transform: translate(0px, 0px) scale(0.6); opacity: 0; }
+      28% { opacity: 1; }
+      52% { transform: translate(-225px, 12px) scale(1); opacity: 1; }
+      60%, 100% { transform: translate(-240px, 18px) scale(0.2); opacity: 0; }
+    }
+    .bug-proj-1 { animation: bugFly 4.4s ease-in-out infinite; }
+    .bug-proj-2 { animation: bugFly 4.4s ease-in-out infinite 0.28s; }
+
+    /* Hero rush / dash forward */
+    @keyframes heroRush {
+      0%, 100% { transform: translate(0px, 0px); }
+      28% { transform: translate(22px, 0px); }
+      52% { transform: translate(92px, -14px); }
+      66% { transform: translate(110px, -6px); }
+      82% { transform: translate(45px, 0px); }
+    }
+    .hero-group {
+      animation: heroRush 4.4s cubic-bezier(0.35, 0, 0.25, 1) infinite;
+    }
+
+    /* Speed lines behind hero */
+    @keyframes speedFade {
+      0%, 25%, 88%, 100% { opacity: 0; transform: translateX(-12px); }
+      48%, 68% { opacity: 0.9; transform: translateX(10px); }
+    }
+    .speed-lines {
+      animation: speedFade 4.4s ease-in-out infinite;
+    }
+
+    /* Docker Shield pulse when blocking fire */
+    @keyframes shieldPulse {
+      0%, 20%, 62%, 100% { opacity: 0.22; transform: scale(0.95); }
+      38%, 50% { opacity: 0.95; transform: scale(1.06); }
+    }
+    .docker-shield {
+      transform-origin: 265px 215px;
+      animation: shieldPulse 4.4s ease-in-out infinite;
+    }
+
+    /* Green Patch Beam counter-attack */
+    @keyframes patchStrike {
+      0%, 50% { transform: scaleX(0.05); opacity: 0; }
+      58% { transform: scaleX(1); opacity: 1; }
+      74% { transform: scaleX(1.08); opacity: 0.95; }
+      84%, 100% { transform: scaleX(0.1); opacity: 0; }
+    }
+    .patch-beam {
+      transform-origin: 345px 202px;
+      animation: patchStrike 4.4s ease-out infinite;
+    }
+
+    /* Impact burst on Dragon */
+    @keyframes hitBurst {
+      0%, 56%, 84%, 100% { opacity: 0; transform: scale(0.2); }
+      65% { opacity: 1; transform: scale(1.25); }
+      75% { opacity: 0.7; transform: scale(0.9); }
+    }
+    .hit-burst {
+      transform-origin: 625px 190px;
+      animation: hitBurst 4.4s ease-out infinite;
+    }
+
+    /* Floating FIXED popups */
+    @keyframes popFixed {
+      0%, 58% { transform: translateY(16px); opacity: 0; }
+      68% { transform: translateY(-6px); opacity: 1; }
+      88% { transform: translateY(-34px); opacity: 0.95; }
+      100% { transform: translateY(-48px); opacity: 0; }
+    }
+    .fixed-pop-1 { animation: popFixed 4.4s ease-out infinite; }
+    .fixed-pop-2 { animation: popFixed 4.4s ease-out infinite 0.18s; }
+
+    /* Boss HP bar draining on hit */
+    @keyframes bossHp {
+      0%, 58% { width: 175px; fill: #EF4444; }
+      66% { width: 92px; fill: #F97316; }
+      78% { width: 38px; fill: #2EA043; }
+      94% { width: 38px; fill: #2EA043; }
+      100% { width: 175px; fill: #EF4444; }
+    }
+    .boss-hp-bar {
+      animation: bossHp 4.4s ease-in-out infinite;
+    }
+
+    /* Server status LEDs switching from red alert to green saved */
+    @keyframes serverSave {
+      0%, 56% { fill: #EF4444; }
+      62%, 94% { fill: #3FB950; }
+      100% { fill: #EF4444; }
+    }
+    .server-led {
+      animation: serverSave 4.4s linear infinite;
+    }
+
+    /* Alert badge pulse */
+    @keyframes alertBlink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.55; }
+    }
+    .alert-pill {
+      animation: alertBlink 1.3s ease-in-out infinite;
+    }
+  ]]></style>
+
+  <g clip-path="url(#roundedFrame)">
+    <!-- Background Sky -->
+    <rect width="960" height="360" fill="url(#skyGrad)"/>
+
+    <!-- Subtle Cyber Stars -->
+    <circle cx="95" cy="92" r="1.4" fill="#58A6FF" class="star1"/>
+    <circle cx="195" cy="78" r="1.8" fill="#C9D1D9" class="star2"/>
+    <circle cx="315" cy="105" r="1.3" fill="#3FB950" class="star3"/>
+    <circle cx="445" cy="84" r="1.7" fill="#A371F7" class="star1"/>
+    <circle cx="540" cy="96" r="1.4" fill="#58A6FF" class="star2"/>
+    <circle cx="670" cy="76" r="1.6" fill="#F97316" class="star3"/>
+    <circle cx="885" cy="88" r="1.5" fill="#C9D1D9" class="star1"/>
+    <circle cx="920" cy="135" r="1.2" fill="#A371F7" class="star2"/>
+
+    <!-- Ground Arena -->
+    <rect x="0" y="278" width="960" height="82" fill="url(#groundGrad)"/>
+    <line x1="0" y1="278" x2="960" y2="278" stroke="#30363D" stroke-width="2"/>
+    <!-- Perspective Grid Lines -->
+    <g stroke="#21262D" stroke-width="1" opacity="0.7">
+      <line x1="0" y1="296" x2="960" y2="296"/>
+      <line x1="0" y1="318" x2="960" y2="318"/>
+      <line x1="120" y1="278" x2="40" y2="360"/>
+      <line x1="280" y1="278" x2="220" y2="360"/>
+      <line x1="480" y1="278" x2="480" y2="360"/>
+      <line x1="680" y1="278" x2="740" y2="360"/>
+      <line x1="840" y1="278" x2="920" y2="360"/>
+    </g>
+
+    <!-- Floating Embers -->
+    <circle cx="640" cy="265" r="2.5" fill="#F97316" class="ember1"/>
+    <circle cx="710" cy="272" r="2" fill="#EF4444" class="ember2"/>
+    <circle cx="560" cy="270" r="2.2" fill="#FEF08A" class="ember3"/>
+    <circle cx="790" cy="260" r="2" fill="#A371F7" class="ember4"/>
+
+    <!-- ==================== TOP RPG BATTLE HUD ==================== -->
+    <!-- Hero HUD (Left) -->
+    <rect x="20" y="16" width="260" height="52" rx="10" fill="#0D1117" fill-opacity="0.88" stroke="#2EA043" stroke-width="1.5"/>
+    <text x="34" y="34" fill="#3FB950" font-size="11" font-weight="700" class="mono">HERO: @SwayamX</text>
+    <text x="202" y="34" fill="#8B949E" font-size="10" class="mono">LVL 42</text>
+    <rect x="34" y="42" width="180" height="9" rx="4" fill="#21262D"/>
+    <rect x="34" y="42" width="166" height="9" rx="4" fill="#2EA043"/>
+    <text x="222" y="50" fill="#58A6FF" font-size="9" font-weight="700" class="mono">FIX 100%</text>
+    <text x="34" y="62" fill="#8B949E" font-size="9" class="mono">AI / Full-Stack • Taekwondo Buff</text>
+
+    <!-- Center Battle Status Pill -->
+    <g class="alert-pill">
+      <rect x="336" y="18" width="288" height="32" rx="16" fill="#161B22" stroke="#F97316" stroke-width="1.5"/>
+      <text x="480" y="38" text-anchor="middle" fill="#FEF08A" font-size="11.5" font-weight="700" class="mono">⚔️ PROD ALERT: BUG DRAGON ATTACK</text>
+    </g>
+
+    <!-- Boss HUD (Right) -->
+    <rect x="680" y="16" width="260" height="52" rx="10" fill="#0D1117" fill-opacity="0.88" stroke="#E11D48" stroke-width="1.5"/>
+    <text x="694" y="34" fill="#FB7185" font-size="11" font-weight="700" class="mono">BOSS: PROD-BUG DRAGON</text>
+    <rect x="694" y="42" width="175" height="9" rx="4" fill="#21262D"/>
+    <rect x="694" y="42" width="175" height="9" rx="4" class="boss-hp-bar"/>
+    <text x="877" y="50" fill="#FB7185" font-size="9" font-weight="700" class="mono">500 ERR</text>
+    <text x="694" y="62" fill="#8B949E" font-size="9" class="mono">Weakness: Docker, RAG &amp; Clean Code</text>
+
+    <!-- ==================== PRODUCTION SERVER TOWER (FAR LEFT) ==================== -->
+    <g>
+      <rect x="32" y="162" width="68" height="116" rx="6" fill="#161B22" stroke="#30363D" stroke-width="2"/>
+      <rect x="40" y="174" width="52" height="18" rx="3" fill="#0D1117" stroke="#21262D"/>
+      <rect x="40" y="198" width="52" height="18" rx="3" fill="#0D1117" stroke="#21262D"/>
+      <rect x="40" y="222" width="52" height="18" rx="3" fill="#0D1117" stroke="#21262D"/>
+      <rect x="40" y="246" width="52" height="18" rx="3" fill="#0D1117" stroke="#21262D"/>
+      <!-- Animated Server LEDs -->
+      <circle cx="50" cy="183" r="3.5" class="server-led" filter="url(#glowGreen)"/>
+      <circle cx="62" cy="183" r="3.5" class="server-led"/>
+      <circle cx="50" cy="207" r="3.5" class="server-led"/>
+      <circle cx="62" cy="207" r="3.5" fill="#58A6FF"/>
+      <circle cx="50" cy="231" r="3.5" class="server-led"/>
+      <circle cx="50" cy="255" r="3.5" fill="#58A6FF"/>
+      <text x="66" y="154" text-anchor="middle" fill="#8B949E" font-size="9.5" font-weight="700" class="mono">PROD SERVER</text>
+    </g>
+
+    <!-- ==================== HERO: @SwayamX RUSHING TO FIX ==================== -->
+    <g class="hero-group">
+      <!-- Cyan Rush Speed Lines -->
+      <g class="speed-lines" stroke="#58A6FF" stroke-linecap="round">
+        <line x1="108" y1="192" x2="152" y2="192" stroke-width="2.5"/>
+        <line x1="96" y1="212" x2="146" y2="212" stroke-width="2"/>
+        <line x1="115" y1="234" x2="158" y2="234" stroke-width="2.5"/>
+        <line x1="102" y1="254" x2="142" y2="254" stroke-width="1.8"/>
+      </g>
+
+      <!-- Hero Shadow -->
+      <ellipse cx="195" cy="278" rx="28" ry="6" fill="#000000" opacity="0.55"/>
+
+      <!-- Flowing Hoodie Cape / Scarf -->
+      <path d="M180 198 Q145 204 134 222 Q156 226 184 214 Z" fill="#0969DA"/>
+
+      <!-- Hero Legs (Sprinting / Taekwondo Dash Pose) -->
+      <path d="M190 236 L172 268 L184 274 L200 244 Z" fill="#1F2937"/>
+      <path d="M204 234 L228 258 L220 268 L194 244 Z" fill="#111827"/>
+      <!-- Glowing Shoes -->
+      <rect x="166" y="268" width="18" height="7" rx="3" fill="#2EA043"/>
+      <rect x="218" y="260" width="18" height="7" rx="3" fill="#2EA043"/>
+
+      <!-- Hero Torso (Dev Hoodie + Taekwondo Black Belt) -->
+      <path d="M182 192 L214 192 L218 238 L178 238 Z" rx="8" fill="#161B22" stroke="#58A6FF" stroke-width="1.6"/>
+      <!-- Taekwondo Black Belt with Flying Ends -->
+      <rect x="178" y="224" width="40" height="7" rx="2" fill="#050811" stroke="#3FB950" stroke-width="0.9"/>
+      <path d="M196 231 L186 248 L193 250 L201 231 Z" fill="#050811"/>
+      <path d="M203 231 L214 247 L207 249 L198 231 Z" fill="#050811"/>
+
+      <!-- Hero Head + Glowing Dev Visor -->
+      <circle cx="200" cy="172" r="17" fill="#FDE68A"/>
+      <!-- Hair -->
+      <path d="M183 169 Q186 151 203 153 Q218 155 217 170 Q208 161 196 162 Q188 163 183 169 Z" fill="#111827"/>
+      <!-- Glowing Cyan Coding Visor -->
+      <rect x="201" y="167" width="15" height="6" rx="2.5" fill="#58A6FF" filter="url(#glowGreen)"/>
+
+      <!-- Extended Arm Holding Glowing Code Deck / Wrench-Laptop -->
+      <path d="M210 200 L240 202 L238 212 L208 212 Z" fill="#161B22" stroke="#58A6FF" stroke-width="1.2"/>
+      <!-- Glowing Laptop / Patch Caster -->
+      <polygon points="236,196 254,192 258,208 238,212" fill="#0D1117" stroke="#3FB950" stroke-width="1.8" filter="url(#glowGreen)"/>
+      <text x="247" y="204" text-anchor="middle" fill="#3FB950" font-size="7.5" font-weight="700" class="mono">&lt;/&gt;</text>
+
+      <!-- Hero Tag -->
+      <rect x="163" y="136" width="76" height="16" rx="8" fill="#0D1117" stroke="#2EA043" stroke-width="1"/>
+      <text x="201" y="147" text-anchor="middle" fill="#3FB950" font-size="8.5" font-weight="700" class="mono">@SwayamX</text>
+
+      <!-- Docker Energy Shield Dome -->
+      <g class="docker-shield">
+        <path d="M262 162 Q292 212 262 262" fill="none" stroke="#58A6FF" stroke-width="4" stroke-linecap="round" filter="url(#glowGreen)"/>
+        <path d="M256 170 Q282 212 256 254" fill="none" stroke="#3FB950" stroke-width="2" stroke-dasharray="6 4"/>
+        <text x="282" y="162" fill="#58A6FF" font-size="8.5" font-weight="700" class="mono">DOCKER SHIELD</text>
+      </g>
+    </g>
+
+    <!-- ==================== GREEN PATCH BEAM COUNTER-ATTACK ==================== -->
+    <g class="patch-beam" filter="url(#glowGreen)">
+      <rect x="345" y="194" width="285" height="16" rx="8" fill="url(#patchBeam)"/>
+      <rect x="345" y="199" width="285" height="6" rx="3" fill="#FFFFFF" opacity="0.85"/>
+      <text x="485" y="187" text-anchor="middle" fill="#3FB950" font-size="10.5" font-weight="700" class="mono">⚡ git commit -m "fix: dragon patched"</text>
+    </g>
+
+    <!-- ==================== DRAGON FIRE BREATH & BUG PROJECTILES ==================== -->
+    <g class="fire-stream" filter="url(#glowRed)">
+      <path d="M605 174 C560 158, 505 164, 440 176 C490 194, 555 202, 605 186 Z" fill="url(#fireGrad)"/>
+      <path d="M600 177 C565 168, 520 172, 475 180 C515 188, 565 190, 600 183 Z" fill="#FEF08A" opacity="0.85"/>
+    </g>
+
+    <!-- Flying Error Tags from Dragon -->
+    <g class="bug-proj-1">
+      <rect x="530" y="152" width="76" height="20" rx="5" fill="#450A0A" stroke="#EF4444" stroke-width="1.3"/>
+      <text x="568" y="165" text-anchor="middle" fill="#FCA5A5" font-size="9.5" font-weight="700" class="mono">🐛 500 ERR</text>
+    </g>
+    <g class="bug-proj-2">
+      <rect x="515" y="205" width="96" height="20" rx="5" fill="#450A0A" stroke="#F97316" stroke-width="1.3"/>
+      <text x="563" y="218" text-anchor="middle" fill="#FDBA74" font-size="9" font-weight="700" class="mono">🔥 MERGE BUG</text>
+    </g>
+
+    <!-- ==================== ANIMATED PRODUCTION BUG DRAGON ==================== -->
+    <g class="dragon-group">
+      <!-- Dragon Ground Shadow -->
+      <ellipse cx="745" cy="284" rx="82" ry="11" fill="#000000" opacity="0.5"/>
+
+      <!-- Back Wing -->
+      <g class="dragon-wing-back">
+        <path d="M745 152 L835 76 L868 124 L824 142 L846 168 L758 176 Z" fill="#4C1D95" stroke="#A371F7" stroke-width="1.5"/>
+      </g>
+
+      <!-- Spiked Tail -->
+      <g class="dragon-tail">
+        <path d="M800 218 Q865 232 908 188 Q896 244 824 244 Z" fill="url(#dragonBody)" stroke="#FB7185" stroke-width="1.3"/>
+        <polygon points="908,188 924,178 914,202" fill="#F97316"/>
+      </g>
+
+      <!-- Dragon Body & Armored Belly -->
+      <path d="M676 176 Q735 148 804 186 Q826 218 790 246 Q724 256 678 222 Z" fill="url(#dragonBody)" stroke="#FB7185" stroke-width="1.8"/>
+      <!-- Belly Plates -->
+      <path d="M694 218 Q734 242 778 232 Q738 250 690 226 Z" fill="#FCA5A5" opacity="0.45"/>
+
+      <!-- Front Wing -->
+      <g class="dragon-wing-front">
+        <path d="M726 162 L794 72 L862 114 L816 144 L832 178 L774 176 L750 192 Z" fill="url(#dragonWing)" stroke="#FB7185" stroke-width="1.8"/>
+        <!-- Wing Ribs -->
+        <line x1="726" y1="162" x2="794" y2="72" stroke="#FDE047" stroke-width="1.2" opacity="0.55"/>
+        <line x1="742" y1="168" x2="862" y2="114" stroke="#FDE047" stroke-width="1" opacity="0.4"/>
+      </g>
+
+      <!-- Claws -->
+      <path d="M706 238 L692 262 L704 264 L718 242 Z" fill="#881337"/>
+      <path d="M768 242 L776 266 L788 264 L782 240 Z" fill="#881337"/>
+
+      <!-- Neck & Fierce Dragon Head -->
+      <path d="M686 184 Q656 162 634 160 L602 170 L628 182 L606 190 L642 196 Q666 202 688 206 Z" fill="url(#dragonBody)" stroke="#FB7185" stroke-width="1.8"/>
+      <!-- Horns -->
+      <polygon points="646,160 668,128 660,162" fill="#FDE047"/>
+      <polygon points="660,164 682,140 672,168" fill="#F97316"/>
+      <!-- Glowing Fierce Eye -->
+      <polygon points="632,168 644,165 640,174" fill="#FEF08A" filter="url(#glowRed)"/>
+      <!-- Glowing Jaw Interior -->
+      <polygon points="604,173 626,181 609,187" fill="#F97316"/>
+    </g>
+
+    <!-- ==================== IMPACT BURST & FIXED POPUPS ==================== -->
+    <circle cx="625" cy="190" r="34" fill="url(#impactGlow)" class="hit-burst"/>
+
+    <g class="fixed-pop-1">
+      <rect x="572" y="112" width="96" height="22" rx="11" fill="#052E16" stroke="#3FB950" stroke-width="1.5"/>
+      <text x="620" y="126" text-anchor="middle" fill="#4ADE80" font-size="10" font-weight="700" class="mono">✓ BUG FIXED!</text>
+    </g>
+    <g class="fixed-pop-2">
+      <rect x="650" y="92" width="84" height="20" rx="10" fill="#0C1E35" stroke="#58A6FF" stroke-width="1.3"/>
+      <text x="692" y="105" text-anchor="middle" fill="#79C0FF" font-size="9.5" font-weight="700" class="mono">+100 XP 🚀</text>
+    </g>
+
+    <!-- ==================== BOTTOM BATTLE TERMINAL BAR ==================== -->
+    <rect x="20" y="314" width="920" height="32" rx="8" fill="#0D1117" fill-opacity="0.92" stroke="#30363D" stroke-width="1.2"/>
+    <text x="36" y="334" fill="#3FB950" font-size="11.5" font-weight="700" class="mono">&gt; BATTLE LOG:</text>
+    <text x="138" y="334" fill="#C9D1D9" font-size="11.5" class="mono">@SwayamX rushed in with Docker Shield + AI Debug Strike — Production Saved! ✓</text>
+    <rect x="836" y="321" width="92" height="18" rx="9" fill="#2EA043"/>
+    <text x="882" y="333" text-anchor="middle" fill="#FFFFFF" font-size="9.5" font-weight="700" class="mono">CI: PASSED</text>
+  </g>
+</svg>
